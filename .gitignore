@@ -348,3 +348,12 @@ MigrationBackup/
 
 # Ionide (cross platform F# VS Code tools) working folder
 .ionide/
+
+
+### Elm ###
+# elm-package generated files
+elm-stuff
+# elm-repl generated files
+repl-temp-*
+
+*.DS_Store
