@@ -1,11 +1,12 @@
 module Pages.Home_ exposing (view)
-
-import Html
+import UI exposing (..)
 import View exposing (View)
+import UI exposing (..)
+import Html
 
 
 view : View msg
 view =
     { title = "Homepage"
-    , body = [ Html.text "Hello, world!" ]
+    , body = UI.layout [ Html.text "Homepage" ]
     }

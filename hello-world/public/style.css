@@ -1,0 +1,24 @@
+.container {
+  max-width: 960px;
+  margin: 1rem auto;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+}
+
+.navbar a {
+  margin-right: 16px;
+  text-decoration: none;
+  background: rgb(184, 184, 187);
+  padding: 5px 25px;
+  border-radius: 2px;
+  color: rgba(255, 255, 255, 0.781);
+}
+
+.navbar a:hover {
+  background: rgb(95, 95, 95);
+  color: white;
+}
