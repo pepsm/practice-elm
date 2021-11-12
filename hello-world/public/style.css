@@ -1,5 +1,5 @@
 .container {
-  max-width: 960px;
+  max-width: 1000px;
   margin: 1rem auto;
   font-family: Arial, Helvetica, sans-serif;
 }
@@ -12,13 +12,17 @@
 .navbar a {
   margin-right: 16px;
   text-decoration: none;
-  background: rgb(184, 184, 187);
+  border-bottom: 1px dashed rgb(184, 184, 187);
   padding: 5px 25px;
   border-radius: 2px;
-  color: rgba(255, 255, 255, 0.781);
+  color: gray
 }
 
 .navbar a:hover {
-  background: rgb(95, 95, 95);
-  color: white;
+  border-bottom: 1px solid black;
+  color: black;
+}
+
+main {
+    margin-top: 5vh;
 }
